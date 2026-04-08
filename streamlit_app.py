@@ -27,7 +27,7 @@ def check_login():
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             st.title("🔒 金融431考研记录")
-            st.markdown("##### 一步一步重头来！ 🌟")
+            st.markdown("##### 俯下身子一步一步重头来！ 🌟")
             username = st.text_input("账号")
             password = st.text_input("密码", type="password")
 
