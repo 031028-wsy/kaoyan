@@ -1,6 +1,21 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, date, timedelta
+st.set_page_config(
+    page_title="金融431专属记录",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+st.markdown("""
+    <style>
+    header {visibility: hidden;}
+    .main .block-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 
 # ====================== 登录验证 ======================
